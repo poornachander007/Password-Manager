@@ -1,0 +1,58 @@
+.list_item_container {
+  display: flex;
+  justify-content: space-between;
+  /* width: 200px; */
+  align-items: center;
+  border: 1px solid #b9b7b7;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.initial {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: green;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.details_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+
+.website {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.user {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.password {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.stars {
+  width: 100px;
+}
+
+.button {
+  margin: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.delete_icon {
+  width: 30px;
+  height: 30px;
+}
